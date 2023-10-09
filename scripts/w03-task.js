@@ -54,7 +54,7 @@ function divideNumbers () {
     return document.querySelector("#quotient").value = divide(dividend, divisor);
 }
 
-document.querySelector("divideNumbers").addEventListener("click", divideNumbers);
+document.querySelector("#divideNumbers").addEventListener("click", divideNumbers);
 
 /* Decision Structure */
 
