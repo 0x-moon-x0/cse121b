@@ -254,7 +254,28 @@ footer {
     margin-bottom: 3rem;
 }
 
+#emojis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 100px;
+}
+
 #temples article {
+    height: 250px;
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#emojis article {
     height: 250px;
     margin: .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -277,6 +298,21 @@ footer {
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#emojis p {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 30px #df8eca;
+    margin: .5rem;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 1.5rem;
+    color: #df8eca;
+    text-align: center;
+    margin-top: 25px;
 }
 
 /* Media Queries */

@@ -51,7 +51,7 @@ let sortBy = async (temples) => {
             displayTemples(notUtahFilter);
             break;
         case "older":
-            let olderFilter = temples.filter((temple) => new Date(temple.dedicated) < new Date(1950, 0, 1));
+            let olderFilter = temples.filter((temple) => new Date(temple.dedicate0d) < new Date(1950, 0, 1));
             displayTemples(olderFilter);
             break;
         case "all":
